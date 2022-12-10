@@ -1,0 +1,163 @@
+demo()
+fruits <- c('banana','apple','orange')
+length(friuts)
+length('fruits')
+length(fruits)
+thismatrix<- matrix (c('apple','banana','cherry','orange','grape','pineapple,'pear','melon','fig'),nrow=3,ncol=3)
+thismatrix <- matrix (c('apple','banana','cherry','orange','grape','pineapple','pear','melon','fig'),nrow=3,ncol=3)
+print(thismatrix)
+Data_Frame <- data.frame( Training=c('strength','stamina','other'), Pulse= c(100,150,120), Duration= c(60,30,45))
+Data_Frame
+car_data=mtcars
+dim
+dim(car_data)
+rownames(Data_Cars)
+car_data=mtcars
+rownames(Data_Cars)
+Data_Cars<- mtcars
+Data_Cars$cyl
+mtcars
+Data_Cars<- mtcars
+rownames(Data_Cars)
+sort(Data_Cars$cyl)
+summary(Data_Cars)
+max(Data_Cars$hp)
+min(Data_Cars$disp)
+which.max(Data_Cars$hp)
+Which.max(Data_Cars$mpg)
+which.max(Data_Cars$mpg)
+which.min(Data_Cars$mpg)
+rownames(Data_Cars)[which.max(Data_Cars$hp)]
+rownames(Data_Cars)[which.min(Data_Cars$mpg)]
+rownmanes(Data_Cars)
+rownames(Data_Cars)
+rownames(Data_Cars)[31]
+Data
+Data_
+mean(Data_Cars$wt)
+max(Data_Cars$wt)
+min(Data_Cars$wt)
+rownames(Data_Cars$wt)
+rownames(Data_Cars)[which.min(Data_Cars$wt)]
+ff=read.csv('data.csv')
+head(ff)
+https://raw.githubusercontent.com/fangjin/STAT1129/main/Json/Sample.csv
+ff=read.csv(https://raw.githubusercontent.com/fangjin/STAT1129/main/Json/Sample.csv)
+ff=read.csv(/raw.githubusercontent.com/fangjin/STAT1129/main/Json/Sample.csv)
+ff=read.csv('https://raw.githubusercontent.com/fangjin/STAT1129/main/Json/Sample.csv')
+head(ff)
+plot(1,3)
+plot(c(1,8),c(3,10))
+plot(2,3)
+plot(c(1,2,3,4,5),c(3,7,8,9,12))
+x<- c(1,2,3,4,5)
+y<-c(3,7,8,9,12)
+plot(x,y)
+plot(1:10,pch=10,cex=11)
+plot(1:10,pch=11,cex=2)
+line1<-c(2,4,6,8,10)
+line2<-c(3,6,9,12,15)
+line3<-c(1,2,3,4,5)
+plot(line1,type='1',col='green')
+plot(line1,type=1,col='green')
+plot(line1, type=1, col='green')
+x<- c(5,7,8,7,2,2,9,4,11,12,9,6)
+y<-c(99,86,74,77,103,111,92,88,78,100,95,75)
+plot(x,y)
+plot(x,y,main='Observation of Cars',xlab='Car age',ylab='Car speed')
+x<-c(10,20,30,40)
+pie(x)
+x<- c('a','b','c','d')
+y<- c(2,4,6,8)
+barplot(y,names.arg=x)
+barplot(y,names.arg=x, col='green')
+barplot(y,names.arg=x, col='green', density=9)
+num=1.2:7.5
+length(num)
+num=1.4:6.3#
+> length(num)
+num=1.4:6.3
+length(num)
+num
+data.frame
+thismatrix <- matrix(c(7,9,12,2,4,13),nrow=2,ncol=3)
+thismatrix
+this matrix <- matrix(c(7,9,12,2,4,13),nrow=2,ncol=3)
+thismatrix <- matrix(c(7,9,12,2,4,13),nrow=2,ncol=3)
+thismatrix
+matrix2<- matrix(c(1,7,12,19,2,8,13,20,3,9,14,21),nrow=3,ncol=4)
+matrix_combined<- rbind(thismatrix, matrix2)
+(thismatrix*matrix2)
+Data_frame <- data.frame (id=c(1,2,3,4,5), name=c('peter','amy','ryan','gary','michelle'), salary=c(623.30,515.20,611.000,729.00,843.25))
+Data_frame
+new_col_df <-cbind(Data_frame, department=c('computer science','accounting','finance','business','management'))
+new_col_df
+updated_df <-Data_frame[-c(1),-c(3),-c(5),-c(2),-c(3)]
+updated_df <-Data_frame[-c(1),(3),(5),-c(2),(3)]
+updated_df <-Data_frame[-c(1,3,5),-c(2,3)]
+updated_df
+updated_df <-Data_frame[-c(1),-c(1)]
+updated_df
+updated_df <-Data_frame[-c(1),-c(2)]
+updated_df
+updated_df <-Data_frame[-c(1,3,5),-c(2,3)]
+updated_df
+updated_df <-Data_frame[-c(1,3,5)]
+updated_df
+updated_df <-Data_frame[-c(1,3,5)]
+updated_df
+updated_df <-Data_frame[-c(1),-c(2)]
+updated_df
+updated_df <-Data_frame[-c(1),-c(2),-c(3)]
+updated_df
+updated_df <-Data_frame[-c(1,3,5),-c(2),-c(3)]
+updated_df
+new_col_df
+x<- c('peter','gary','michelle')
+y<- c(623.30,729.00,843.25)
+barplot(y,names.arg=x)
+x1<- c(1,4,5)
+y1<- c(623.00,729.00,843.25)
+barplot(x1,y1)
+barplot(y1, names.arg=x)
+barplot(y,names=arg.x)
+barplot(y,names.arg=x)
+x<- c('peter','gary','michelle')#
+> y<- c(623.30,729.00,843.25)#
+> barplot(y,names.arg=x)
+barplot(y,names.arg=x)
+barplot(names.arg=x,y)
+x<- c('peter','gary','michelle')#
+> y<- c(623.30,729.00,843.25)#
+> barplot(y,names.arg=x)
+x<- c('peter','gary','michelle')#
+y<- c(623.30,729.00,843.25)#
+barplot(y,names.arg=x)
+max(new_col_df)
+max(Data.frame$'salary')
+Data.frame <- mtframe
+print(min(Data.frame$salary))
+(min(new_col_df$salary))
+(max(new_col_df$salary))
+(median(new_col_df$salary))
+x<-c((min(new_col_df$salary)),(max(new_col_df$salary)),(median(new_col_df$salary)))
+pie(x,main="salaries"
+x<-c((min(new_col_df$salary)),(max(new_col_df$salary)),(median(new_col_df$salary)))#
+mylabel=<-c("min salary","max salary","average salary")
+mylabel<-c("min salary",'max salary','average salary')
+pie(x, label=mylabel,main="Salaries")
+x<-c((min(new_col_df$salary)),(max(new_col_df$salary)),(median(new_col_df$salary)))
+mylabel<-c("min salary",'max salary','average salary')#
+pie(x, label=mylabel,main="Salaries")
+mylabel<-c("min salary",'max salary','average salary')#
+> pie(x, label=mylabel,main="Salaries")
+mylabel<-c("min salary",'max salary','average salary')#
+pie(x, label=mylabel,main="Salaries")
+matrix1<- matrix(c(7,9,12,2,4,13),nrow=2,ncol=3)
+matrix2<-matrix(c(1:21),nrow=3,ncol=4)
+matrix2<-matrix(c(1,7,12,19,2,8,13,20,3,9,14,21),nrow=3,ncol=4)
+print(matrix1*matrix2)
+(matrix1%*%matrix2)
+matrix1<- matrix(c(7,9,12,2,4,13),nrow=2,ncol=3)
+matrix2<-matrix(c(1,7,12,19,2,8,13,20,3,9,14,21),nrow=3,ncol=4)
+(matrix1%*%matrix2)
